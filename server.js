@@ -1,7 +1,7 @@
 const express = require('express')
 const fetch = require('node-fetch')
 const bodyParser = require('body-parser')
-require('dotenv').config()
+// require('dotenv').config()
 
 const symbols = ['TSLA', 'AAPL', 'ADS']
 const instruments = []
